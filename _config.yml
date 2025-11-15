@@ -34,6 +34,18 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
+# minimal mistakes settings
+minimal_mistakes_skin: default
+
+# Activates large sidebar
+sidebar:
+  nav: "docs"     # Name deiner Navigationsdatei
+
+toc:
+  enabled: true
+  heading: "On this page"
+  ordered: false
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
