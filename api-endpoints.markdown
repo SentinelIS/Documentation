@@ -1,0 +1,26 @@
+---
+layout: single
+title: API Endpoints
+permalink: /api-endpoints/
+
+toc: true
+toc_sticky: true
+sidebar:
+  nav: "docs"
+---
+
+All of the Node.js API Endpoints for the core application are listed here.
+
+## Login und Setup
+
+``` javascript
+GET /api/test
+```
+
+``` javascript
+POST /api/login
+```
+
+``` javascript
+POST /api/setup
+```

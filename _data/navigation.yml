@@ -7,3 +7,5 @@ docs:
     url: /features/
   - title: "Styleguide"
     url: /styleguide/
+  - title: "API Endpoints"
+    url: /api-endpoints/
