@@ -24,3 +24,11 @@ POST /api/login
 ``` javascript
 POST /api/setup
 ```
+
+```javascript
+POST /api/users
+```
+
+```javascript
+POST /api/chatbot
+```

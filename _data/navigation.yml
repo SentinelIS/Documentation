@@ -9,3 +9,5 @@ docs:
     url: /styleguide/
   - title: "API Endpoints"
     url: /api-endpoints/
+  - title: "Swagger UI"
+    url: /swaggerui/
