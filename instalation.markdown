@@ -63,4 +63,12 @@ SQLITE_DB_PATH=/sqlite/data/mydb.sqlite
 SQLITE_GUI_PORT=8081
 ```
 
+Please make sure that the following directories contain a `.env` file:
+
+- `SentinelIS-Core/docker`: This directory must contain the main `.env` file. If it is missing, the entire application will not work.
+- `SentinelIS-Core/backend/main/node`: The server files require a `.env` file unless you plan to use fallback defaults or hardcode the values. Both of which are not recommended.
+- `SentienlIS-Core/backend/main/testing`: The Python test scripts also expect a `.env` file to be present.
+
+You can use system-wide environment variables instead of separate `.env` files, but this would require modifying all connection configurations accordingly.
+
 For all database connections, Python test scripts are available. You can use these scripts to avoid testing the connections manually. If you choose not to use the Python scripts, you can safely delete the `testing/` directory in the `backend` folder.
