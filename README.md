@@ -11,7 +11,7 @@ bundle exec jekyll serve
 ## Folder Structure
 
 ```yaml
-Documentatiom
+Core-Doc/
 ├─ _data_/
 │   └─ navigation.yml/
 │

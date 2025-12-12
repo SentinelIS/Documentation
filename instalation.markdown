@@ -36,6 +36,7 @@ By default, the entire project runs on `localhost`. You can change this if neede
 
 - `3000`: Express server for login and setup
 - `4000`: Apollo server for GraphQL
+- `5137`: .NET Server for Chatsystem
 - `3307:3306`: MySQL database
 - `27018:27017`: MongoDB database
 - `8081:8080`: SQLite database
@@ -61,12 +62,17 @@ MONGO_CONNECTION_STRING= ..
 
 SQLITE_DB_PATH=/sqlite/data/mydb.sqlite
 SQLITE_GUI_PORT=8081
+
+JWT_SECRET= ..
 ```
+
+**Important:** Make sure that the JWT Secret is at least 16 characters long, better 32!
 
 Please make sure that the following directories contain a `.env` file:
 
 - `SentinelIS-Core/docker`: This directory must contain the main `.env` file. If it is missing, the entire application will not work.
 - `SentinelIS-Core/backend/main/node`: The server files require a `.env` file unless you plan to use fallback defaults or hardcode the values. Both of which are not recommended.
+- `SentinelIS-Core/backend/LiveChatApp`: The server expects a `.env` file for the JWT Token and for the database connections.
 - `SentienlIS-Core/backend/main/testing`: The Python test scripts also expect a `.env` file to be present.
 
 You can use system-wide environment variables instead of separate `.env` files, but this would require modifying all connection configurations accordingly.

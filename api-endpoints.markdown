@@ -9,7 +9,7 @@ sidebar:
   nav: "docs"
 ---
 
-All of the Node.js API Endpoints for the core application are listed here.
+All of the Node.js &  .NET API Endpoints for the core application are listed here.
 
 ## Login und Setup
 
@@ -31,4 +31,14 @@ POST /api/users
 
 ```javascript
 POST /api/chatbot
+```
+
+## Chat
+
+```javascript
+POST /chathub
+```
+
+```javascript
+POST /api/auth
 ```
