@@ -36,7 +36,7 @@ By default, the entire project runs on `localhost`. You can change this if neede
 
 - `3000`: Express server for login and setup
 - `4000`: Apollo server for GraphQL
-- `5137`: .NET Server for Chatsystem
+- `5137`: .NET Server for chatsystem
 - `3307:3306`: MySQL database
 - `27018:27017`: MongoDB database
 - `8081:8080`: SQLite database
@@ -66,7 +66,7 @@ SQLITE_GUI_PORT=8081
 JWT_SECRET= ..
 ```
 
-**Important:** Make sure that the JWT Secret is at least 16 characters long, better 32!
+**Important:** Make sure that `JWT_-_SECRET` is at least 16 characters long, better 32!
 
 Please make sure that the following directories contain a `.env` file:
 
