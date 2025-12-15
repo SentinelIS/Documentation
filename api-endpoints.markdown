@@ -33,7 +33,7 @@ POST /api/users
 POST /api/chatbot
 ```
 
-## Chat
+## Chat
 
 ```javascript
 POST /chathub
